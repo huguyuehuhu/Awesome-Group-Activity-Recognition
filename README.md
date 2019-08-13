@@ -4,15 +4,9 @@ If you have any problems, suggestions or improvements, please submit an issue or
 
 ## TODO <!-- omit in toc -->
 
-- [ ] Paper list
-  - [x] paper links
-  - [x] available codes
-  - [ ] more journal papers
-<!-- 
-- [ ] Leaderboard
-  - [x] Volleyball Dataset
-  - [x] Collective Activity Dataset
--->
+- [x] Paper list
+- [x] Available codes
+- [x] Leaderboard
 
 ## Contents <!-- omit in toc -->
 
@@ -32,7 +26,7 @@ If you have any problems, suggestions or improvements, please submit an issue or
 - (2016) Volleyball Dataset [[Github](https://github.com/mostafa-saad/deep-activity-rec)]
 - (2012) Choi's Dataset [[Homepage](http://www-personal.umich.edu/~wgchoi/eccv12/wongun_eccv12.html)]
 - (2011) Collective Activity Augmented Dataset [[Homepage](http://vhosts.eecs.umich.edu/vision//activity-dataset.html)]
-- (2009) Collective Activity Dataset [[Homepage](http://vhosts.eecs.umich.edu/vision//activity-dataset.html)]
+- (2009) Collective Activity Dataset (CAD) [[Homepage](http://vhosts.eecs.umich.edu/vision//activity-dataset.html)]
 
 This section only shows some popular or new datasets.
 
@@ -80,7 +74,7 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 
 ## LeaderBoard
 
-The section is being continually updated. We only show results on large-scale dataset NTU-RGB+D and NTU-RGB+D 120.
+The section is being continually updated. We only show results on Volleyball and CAD datasets.
 
 ### Volleyball Dataset
 
@@ -109,6 +103,6 @@ The section is being continually updated. We only show results on large-scale da
 | 2019 | 2s-AGCN               |     88.5      |    95.1    |
 | 2019 | DGNN                  |   **89.9**    |  **96.1**  |
 
-### NTU-RGB+D 120
+### Reference
 
-Most of existing methods have not been tested on this new dataset yet, and some results can be found in the paper of **NTU RGB+D 120 Dataset** ([TPAMI](https://arxiv.org/pdf/1905.04757.pdf)).
+[1] [Awesome-Skeleton-based-Action-Recognition](https://github.com/niais/Awesome-Skeleton-based-Action-Recognition)
