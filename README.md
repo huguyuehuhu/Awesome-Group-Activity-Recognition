@@ -56,14 +56,14 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 - **SPA+KD+OF:** Mining Semantics-Preserving Attention for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240576)]
 - **HRN:** Hierarchical Relational Networks for Group Activity Recognition and Retrieval (**ECCV 2018**) [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Mostafa_Ibrahim_Hierarchical_Relational_Networks_ECCV_2018_paper.pdf)] [[github](https://github.com/mostafa-saad/hierarchical-relational-network)]
 - **HANs+HCNs:** Hierarchical Attention and Context Modeling for Group Activity Recognition (**ICASSP 2018**) [[paper](https://doi.org/10.1109/ICASSP.2018.8461770)]
-- **SRNN:** Structural recurrent neural network (SRNN) for group activity analysis (**WACV 2018**) [[paper](https://www.computer.org/csdl/proceedings-article/wacv/2018/488601b625/12OmNqI04HX)]
+- **SRNN:** Structural Recurrent Neural Network (SRNN) for Group Activity Analysis (**WACV 2018**) [[paper](https://www.computer.org/csdl/proceedings-article/wacv/2018/488601b625/12OmNqI04HX)]
 - **MLS-GAN:** A Hierarchical Deep Temporal Model for Group Activity Recognition (**ACCV 2018**) [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-20887-5_21)]
 
 ### 2017
 - **SBGAR:** Semantics Based Group Activity Recognition (**ICCV 2017**) [[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Li_SBGAR_Semantics_Based_ICCV_2017_paper.pdf)]
-- **RMIC:** Recurrent modeling of interaction context for collective activity recognition (CVPR 2017) [[paper](https://ieeexplore.ieee.org/document/8100266)]
-- **CERN:** Confidence-energy recurrent network for group activity recognition (**CVPR 2017**) [[paper](https://arxiv.org/abs/1704.03058)]
-- **SSU:** Social scene understanding: End-to-end multi-person action localization and collective activity recognition (**CVPR 2017**) [[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bagautdinov_Social_Scene_Understanding_CVPR_2017_paper.pdf)]
+- **SSU:** Social Scene Understanding: End-to-end Multi-person Action Localization and Collective Activity Recognition (**CVPR 2017**) [[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bagautdinov_Social_Scene_Understanding_CVPR_2017_paper.pdf)] [[github](https://github.com/cvlab-epfl/social-scene-understanding)]
+- **RMIC:** Recurrent Modeling of Interaction Context for Collective Activity Recognition (**CVPR 2017**) [[paper](https://ieeexplore.ieee.org/document/8100266)]
+- **CERN:** Confidence-energy Recurrent Network for Group Activity Recognition (**CVPR 2017**) [[paper](https://arxiv.org/abs/1704.03058)]
 
 
 ### 2016
