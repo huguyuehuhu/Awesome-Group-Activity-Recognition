@@ -13,7 +13,7 @@ If you have any problems, suggestions or improvements, please submit an issue or
 - [Datasets](#datasets)
 - [Papers](#papers)
   - [arXiv papers](#arxiv-papers)
-  - [journal papers](#journal papers)
+  - [journal papers](#journal-papers)
   - [2019](#2019)
   - [2018](#2018)
   - [2017](#2017)
