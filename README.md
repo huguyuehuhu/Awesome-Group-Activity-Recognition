@@ -13,6 +13,7 @@ If you have any problems, suggestions or improvements, please submit an issue or
 - [Datasets](#datasets)
 - [Papers](#papers)
   - [arXiv papers](#arxiv-papers)
+  - [journal papers](#journal papers)
   - [2019](#2019)
   - [2018](#2018)
   - [2017](#2017)
@@ -52,7 +53,7 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 
 ### 2018
 - **PCTDM:** Participation-Contributed Temporal Dynamic Model for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240572)] [[github](https://github.com/ruiyan1995/Group-Activity-Recognition)]
-- **SPA+KD+OF:** Mining Semantics-Preserving Attention for Group Activity Recog-nition (**ACM MM 2018**) [[paper](https://www.semanticscholar.org/paper/Mining-Semantics-Preserving-Attention-for-Group-Tang-Wang/cecf4ca1790e0ccb2c47a992d950a3e130a916ef)]
+- **SPA+KD+OF:** Mining Semantics-Preserving Attention for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240576)]
 - **HRN:** Hierarchical Relational Networks for Group Activity Recognition and Retrieval (**ECCV 2018**) [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Mostafa_Ibrahim_Hierarchical_Relational_Networks_ECCV_2018_paper.pdf)] [[github](https://github.com/mostafa-saad/hierarchical-relational-network)]
 - **HANs+HCNs:** (**ICASSP 2018**) [[paper](https://doi.org/10.1109/ICASSP.2018.8461770)]
 - **SRNN:** Structural recurrent neural network (SRNN) for group activity analysis (**WACV 2018**) [[paper](https://www.computer.org/csdl/proceedings-article/wacv/2018/488601b625/12OmNqI04HX)]
