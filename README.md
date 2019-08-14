@@ -80,8 +80,9 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 The section is being continually updated. We only show results on Volleyball and CAD datasets.
 
 ### Metrics
-MCA: Multi-class Classifcation Accuracy
-MPCA: Mean Per Class Accuracy
+**MCA**: Multi-class Classifcation Accuracy
+
+**MPCA**: Mean Per Class Accuracy
 
 ### Volleyball Dataset
 
