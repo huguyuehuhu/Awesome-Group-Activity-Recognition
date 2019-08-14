@@ -84,7 +84,7 @@ The section is being continually updated. We only show results on Volleyball and
 
 **MPCA**: Mean Per Class Accuracy
 
-### Volleyball Dataset
+### Volleyball
 
 | Year | Methods        | MCA           | MPCA       |
 | ---- | -------------- | :-----------: | :--------: |
@@ -103,7 +103,7 @@ The section is being continually updated. We only show results on Volleyball and
 | 2019 | CRM            |     93.0      |    -       |
 
 
-### CAD Dataset
+### CAD
 
 | Year | Methods        |MCA (5 classes)|MPCA (4 classes)|
 | ---- | -------------- | :-----------: | :------------: |
