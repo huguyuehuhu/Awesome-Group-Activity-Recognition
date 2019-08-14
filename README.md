@@ -52,9 +52,10 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 
 
 ### 2018
-- **PCTDM:** Participation-Contributed Temporal Dynamic Model for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240572)] [[github](https://github.com/ruiyan1995/Group-Activity-Recognition)]
+- **PC-TDM:** Participation-Contributed Temporal Dynamic Model for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240572)] [[github](https://github.com/ruiyan1995/Group-Activity-Recognition)]
 - **SPA+KD+OF:** Mining Semantics-Preserving Attention for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240576)]
-- **HRN:** Hierarchical Relational Networks for Group Activity Recognition and Retrieval (**ECCV 2018**) [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Mostafa_Ibrahim_Hierarchical_Relational_Networks_ECCV_2018_paper.pdf)] [[github](https://github.com/mostafa-saad/hierarchical-relational-network)]
+- **RCRG:** Hierarchical Relational Networks for Group Activity Recognition and Retrieval (**ECCV 2018**) [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Mostafa_Ibrahim_Hierarchical_Relational_Networks_ECCV_2018_paper.pdf)] [[github](https://github.com/mostafa-saad/hierarchical-relational-network)]
+- **stagNet:** An Attentive Semantic RNN for Group Activity Recognition (**ECCV 2018**) [[paper](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Mengshi_Qi_stagNet_An_Attentive_ECCV_2018_paper.pdf)]
 - **HANs+HCNs:** Hierarchical Attention and Context Modeling for Group Activity Recognition (**ICASSP 2018**) [[paper](https://doi.org/10.1109/ICASSP.2018.8461770)]
 - **SRNN:** Structural Recurrent Neural Network (SRNN) for Group Activity Analysis (**WACV 2018**) [[paper](https://www.computer.org/csdl/proceedings-article/wacv/2018/488601b625/12OmNqI04HX)]
 - **MLS-GAN:** A Hierarchical Deep Temporal Model for Group Activity Recognition (**ACCV 2018**) [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-20887-5_21)]
@@ -68,7 +69,8 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 
 ### 2016
 - **HDTM:** A Hierarchical Deep Temporal Model for Group Activity Recognition (**CVPR 2016**) [[paper](https://arxiv.org/abs/1511.06040)]  Deep Temporal Model for Group Activity Recognition (**CVPR 2016**) [[paper](https://arxiv.org/abs/1511.06040)] [[github](https://github.com/mostafa-saad/deep-activity-rec)] 
-- **CRF:** Structure Inference Machines: Recurrent Neural Networks for Analyzing Relations in Group Activity Recognition (**CVPR 2016**) [[paper](https://www.cs.sfu.ca/~mori/research/papers/deng-cvpr16.pdf)]
+- **SIM:** Structure Inference Machines: Recurrent Neural Networks for Analyzing Relations in Group Activity Recognition (**CVPR 2016**) [[paper](https://www.cs.sfu.ca/~mori/research/papers/deng-cvpr16.pdf)]
+- **GM:** A Generative Model for Recognizing Mixed Group Activities in Still Images (**IJCAI 2016**) [[paper](https://www.ijcai.org/Proceedings/16/Papers/514.pdf)]
 
 ### before 2016
 - omitted
@@ -77,33 +79,45 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 
 The section is being continually updated. We only show results on Volleyball and CAD datasets.
 
+### Metrics
+MCA: Multi-class Classifcation Accuracy
+MPCA: Mean Per Class Accuracy
+
 ### Volleyball Dataset
 
-| Year | Methods               | Cross-Subject | Cross-View |
-| ---- | --------------------- | :-----------: | :--------: |
-| 2014 | Lie Group             |     50.1      |    52.8    |
-| 2015 | H-RNN                 |     59.1      |    64.0    |
-| 2016 | Part-aware LSTM       |     62.9      |    70.3    |
-| 2016 | Trust Gate ST-LSTM    |     69.2      |    77.7    |
-| 2017 | Two-stream RNN        |     71.3      |    79.5    |
-| 2017 | STA-LSTM              |     73.4      |    81.2    |
-| 2017 | Ensemble TS-LSTM      |     74.6      |    81.3    |
-| 2017 | Visualization CNN     |     76.0      |    82.6    |
-| 2017 | C-CNN + MTLN          |     79.6      |    84.8    |
-| 2017 | Temporal Conv         |     74.3      |    83.1    |
-| 2017 | VA-LSTM               |     79.4      |    87.6    |
-| 2018 | Beyond Joints         |     79.5      |    87.6    |
-| 2018 | ST-GCN                |     81.5      |    88.3    |
-| 2018 | DPRL                  |     83.5      |    89.8    |
-| 2018 | HCN                   |     86.5      |    91.1    |
-| 2018 | SR-TSL                |     84.8      |    92.4    |
-| 2018 | MAN                   |     82.7      |    93.2    |
-| 2019 | RA-GCN                |     85.9      |    93.5    |
-| 2019 | AS-GCN                |     86.8      |    94.2    |
-| 2019 | AGC-LSTM (Joint&Part) |     89.2      |    95.0    |
-| 2019 | 2s-AGCN               |     88.5      |    95.1    |
-| 2019 | DGNN                  |   **89.9**    |  **96.1**  |
+| Year | Methods        | MCA           | MPCA       |
+| ---- | -------------- | :-----------: | :--------: |
+| 2016 | HDTM           |     81.9      |    82.9    |
+| 2017 | SBGAR          |     66.9      |    67.6    |
+| 2017 | CERN-2         |     83.3      |    83.6    |
+| 2017 | SSU            |     89.9      |    -       |
+| 2018 | SRNN           |     83.5      |    -       |
+| 2018 | HANs+HCNs      |     85.1      |    -       |
+| 2018 | PC-TDM         |     87.7      |    88.1    |
+| 2018 | stagNet        |     89.3      |    -       |
+| 2018 | RCRG           |     89.5      |    -       |
+| 2018 | SPA+KD+OF      |     90.7      |    90.0    |
+| 2019 | GCN+SPA+KD+OF  |     91.2      |    91.4    |
+| 2019 | ARG            |     92.6      |    -       |
+| 2019 | CRM            |     93.0      |    -       |
+
+
+### CAD Dataset
+
+| Year | Methods        |MCA (5 classes)|MPCA (4 classes)|
+| ---- | -------------- | :-----------: | :------------: |
+| 2016 | GM             |     -         |      88.9      |
+| 2016 | HDTM           |     81.5      |      89.6      |
+| 2017 | CERN-2         |     87.2      |      88.3      |
+| 2017 | RMIC           |     -         |      89.4      |
+| 2017 | SBGAR          |     86.1      |      89.9      |
+| 2018 | HANs+HCNs      |     84.3      |      -         |
+| 2018 | PC-TDM         |     -         |      92.2      |
+| 2018 | stagNet        |     89.1      |      -         |
+| 2018 | SPA+KD+OF      |     -         |    **95.7**    |
+| 2019 | GCN+SPA+KD+OF  |     -         |    **95.8**    |
+| 2019 | CRM            |     85.8      |      94.2      |
+| 2019 | ARG            |     91.0      |      -         |
 
 ### Reference
-
 [1] [Awesome-Skeleton-based-Action-Recognition](https://github.com/niais/Awesome-Skeleton-based-Action-Recognition)
