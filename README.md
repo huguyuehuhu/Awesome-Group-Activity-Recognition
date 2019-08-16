@@ -42,6 +42,7 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 
 
 ### journal papers
+- **CCG-LSTM:** Coherence Constrained Graph LSTM for Group Activity Recognition (**T-PAMI 2019**) [[paper](https://ieeexplore.ieee.org/abstract/document/8762119)]
 - **stagNet:** An Attentive Semantic RNN for Group Activity and Individual Action Recognition (**TCSVT 2019**) [[paper](https://ieeexplore.ieee.org/document/8621027)]
 - **GCN+SPA+KD+OF:** Learning Semantics-Preserving Attention and Contextual Interaction for Group Activity Recognition (**TIP 2019**) [[paper](https://ieeexplore.ieee.org/document/8709974)]
  
