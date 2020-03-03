@@ -37,7 +37,6 @@ This section only shows some popular or new datasets.
 
 This section only includes the last five papers since 2018 in [arXiv.org](arXiv.org). Note that arXiv papers **without available codes** are not included in [the leaderboard of performance](#leaderboard).
 
-- Progressive Relation Learning for Group Activity Recognition, 2019.08 [[arxiv](https://arxiv.org/abs/1908.02948)]
 - A Multi-Stream Convolutional Neural Network Framework for Group Activity Recognition, 2018.12 [[arxiv](https://arxiv.org/abs/1812.10328)]
 
 
@@ -46,11 +45,12 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 - **stagNet:** An Attentive Semantic RNN for Group Activity and Individual Action Recognition (**TCSVT 2019**) [[paper](https://ieeexplore.ieee.org/document/8621027)]
 - **GCN+SPA+KD+OF:** Learning Semantics-Preserving Attention and Contextual Interaction for Group Activity Recognition (**TIP 2019**) [[paper](https://ieeexplore.ieee.org/document/8709974)]
  
+### 2020 
+- **PRL** Progressive Relation Learning for Group Activity Recognition (**CVPR 2020**) [[arxiv](https://arxiv.org/abs/1908.02948)]
 
 ### 2019
 - **ARG:** Learning Actor Relation Graphs for Group Activity Recognition (**CVPR 2019**) [[paper](https://arxiv.org/abs/1904.10117)] [[github](https://github.com/wjchaoGit/Group-Activity-Recognition)]
 - **CRM:** Convolutional Relational Machine for Group Activity Recognition (**CVPR 2019**) [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Azar_Convolutional_Relational_Machine_for_Group_Activity_Recognition_CVPR_2019_paper.pdf)]
-
 
 ### 2018
 - **PC-TDM:** Participation-Contributed Temporal Dynamic Model for Group Activity Recognition (**ACM MM 2018**) [[paper](https://dl.acm.org/citation.cfm?id=3240572)] [[github](https://github.com/ruiyan1995/Group-Activity-Recognition)]
@@ -101,7 +101,8 @@ The section is being continually updated. We only show results on Volleyball and
 | 2018 | SPA+KD+OF      |     90.7      |    90.0    |
 | 2019 | GCN+SPA+KD+OF  |     91.2      |    91.4    |
 | 2019 | ARG            |     92.6      |    -       |
-| 2019 | CRM            |     93.0      |    -       |
+| 2019 | CRM            |   **93.0**    |    -       |
+| 2020 | PRL            |     91.4      |  **91.8**  |
 
 
 ### CAD
@@ -120,6 +121,7 @@ The section is being continually updated. We only show results on Volleyball and
 | 2019 | GCN+SPA+KD+OF  |     -         |    **95.8**    |
 | 2019 | CRM            |     85.8      |      94.2      |
 | 2019 | ARG            |     91.0      |      -         |
+| 2020 | PRL            |     -         |      93.8      |
 
 ### Reference
 [1] [Awesome-Skeleton-based-Action-Recognition](https://github.com/niais/Awesome-Skeleton-based-Action-Recognition)
