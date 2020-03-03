@@ -47,7 +47,7 @@ This section only includes the last five papers since 2018 in [arXiv.org](arXiv.
 - **GCN+SPA+KD+OF:** Learning Semantics-Preserving Attention and Contextual Interaction for Group Activity Recognition (**TIP 2019**) [[paper](https://ieeexplore.ieee.org/document/8709974)]
  
 ### 2020 
-- **PRL** Progressive Relation Learning for Group Activity Recognition (**CVPR 2020**) [[arxiv](https://arxiv.org/abs/1908.02948)]
+- **PRL:** Progressive Relation Learning for Group Activity Recognition (**CVPR 2020**) [[arxiv](https://arxiv.org/abs/1908.02948)]
 
 ### 2019
 - **ARG:** Learning Actor Relation Graphs for Group Activity Recognition (**CVPR 2019**) [[paper](https://arxiv.org/abs/1904.10117)] [[github](https://github.com/wjchaoGit/Group-Activity-Recognition)]
